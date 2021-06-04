@@ -3,7 +3,7 @@
 This repository includes the code to replicate the image classification experiments from the preprint:
 
 > **Evidential Turing Processes**\
-> _Melih Kandemir, Abdullah Akgül, Manuel Haussmann, Gozde, Unal_
+> _Melih Kandemir, Abdullah Akgül, Manuel Haussmann, Gozde, Unal_\
 > [ArXiv](https://arxiv.org/abs/2106.01216)
 
 
