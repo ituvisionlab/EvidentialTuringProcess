@@ -1,6 +1,6 @@
 # Evidential Turing Processes
 
-This repository includes the code to replicate the image classification experiments from the preprint:
+This repository includes the code to replicate the image classification experiments from the paper:
 
 > **Evidential Turing Processes**\
 > _Melih Kandemir, Abdullah Akgül, Manuel Haussmann, Gozde Unal_\
