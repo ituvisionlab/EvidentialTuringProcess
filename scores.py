@@ -4,14 +4,6 @@ import torch.nn.functional as F
 from sklearn.metrics import roc_auc_score
 
 
-def brier_score(preds, target, minibatch=True):
-    "Assumes the target to be in one-hot encoding; minibatch=True returns the vector"
-    if minibatch:
-        return (preds - target).pow(2).sum(1)
-    else:
-        return (preds - target).pow(2).sum(1).mean()
-
-
 def nll(preds, target, minibatch=True):
     logpred = th.log(preds + 1e-8)
     if minibatch:
